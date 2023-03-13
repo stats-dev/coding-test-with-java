@@ -15,9 +15,9 @@ public class condition {
 		
 		System.out.println(
 		
-				(asciiCode >= 65 && asciiCode < 65+26 )? (asciiCode + " 대문자입니다.") :
-					(asciiCode >= 97 && asciiCode < 97+26)? (asciiCode + " 소문자입니다.") :
-						"옳바르게 다시 입력해주세요!"
+				(asciiCode >= 65 && asciiCode < 65+26 )? ((char)asciiCode + (int)asciiCode + " 대문자입니다.") :
+					(asciiCode >= 97 && asciiCode < 97+26)? ((char)asciiCode + (int)asciiCode + " 소문자입니다.") :
+						(char)asciiCode + (int)asciiCode + "옳바르게 다시 입력해주세요!"
 					
 				);
 		
