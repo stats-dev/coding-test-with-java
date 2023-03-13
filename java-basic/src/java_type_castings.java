@@ -23,11 +23,13 @@ public class java_type_castings {
 		
 		System.out.println("묵시적인 형변환 chVal = " + chVal);
 		System.out.println("명시적인 형변환 (int)chVal = " + (int)chVal);
+		System.out.println("명시적인 형변환 (double)iNum = " + (double)iNum);
 		System.out.println("묵시적인 형변환 dPie+iNum = " + (dPie+iNum));
 
 //		묵시적인 형변환: 
 //			묵시적인 형변환 chVal = A
 //			명시적인 형변환 (int)chVal = 65
+//			명시적인 형변환 (double)iNum = 13.0
 //			묵시적인 형변환 dPie+iNum = 16.1415
 
 
